@@ -82,4 +82,3 @@ O protocolo identifica um envio, mas não permite consultar dados pessoais.
 
 O repositório deve ser disponibilizado no GitHub com acesso para o avaliador. O pacote de código pode ser importado para um novo repositório. Não envie `node_modules`, `.wrangler`, arquivos `.env` ou credenciais.
 A hospedagem Sites é opcional para avaliação; a execução local é independente dela. O identificador em `.openai/hosting.json` pertence à instância hospedada e não é necessário para o avaliador executar localmente.
-
