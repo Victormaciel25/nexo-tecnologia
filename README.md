@@ -1,8 +1,8 @@
 # Nexo Tecnologia
 
-Aplicação desenvolvida para o teste técnico: site da Nexo Tecnologia com três páginas, formulário persistente e integração funcional com API gratuita.
+Site da Nexo Tecnologia com três páginas, formulário persistente e integração funcional com API gratuita.
 
-## Requisitos atendidos
+## Funcionalidades
 
 - Início (`/`), Serviços (`/servicos`) e Contato (`/contato`).
 - Formulário salvo em banco SQLite: Cloudflare D1 em produção e Miniflare localmente.
@@ -73,11 +73,8 @@ O teste de integração requer o servidor em execução na porta 5173 (ou variá
 
 ## Privacidade e limites
 
-O formulário coleta apenas os campos necessários ao exemplo, exige autorização de armazenamento e não lista dados publicamente. O consentimento e a data de criação são armazenados.
-A proteção inclui validação no servidor, SQL parametrizado, checagem de origem, limite de corpo e campo antispam. Antes de abrir ao público em escala, configure rate limiting/CAPTCHA e uma política de retenção e exclusão. O exemplo não implementa painel administrativo nem notificações por e-mail.
+O formulário coleta apenas os campos necessários à solicitação, exige autorização de armazenamento e não lista dados publicamente. O consentimento e a data de criação são armazenados.
+A proteção inclui validação no servidor, SQL parametrizado, checagem de origem, limite de corpo e campo antispam. Antes de abrir ao público em escala, configure rate limiting/CAPTCHA e uma política de retenção e exclusão. A aplicação não implementa painel administrativo nem notificações por e-mail.
 O endereço pode ser editado manualmente e não representa comprovação de localização.
 O protocolo identifica um envio, mas não permite consultar dados pessoais.
 
-## Entrega
-
-O repositório deve ser disponibilizado no GitHub com acesso para o avaliador. O pacote de código pode ser importado para um novo repositório. Não envie `node_modules`, `.wrangler`, arquivos `.env` ou credenciais.
